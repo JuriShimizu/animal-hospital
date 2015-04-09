@@ -1,5 +1,29 @@
-$color: #EEE;
- 
-body {
-  background: $color;
+$default-margin: 20px;
+
+
+@mixin box() {
+	box-shadow: 0 0 3px #555;
+	margin: $default-margin;
+}
+
+#navigation {
+	.menus {
+		padding-top: 20px;
+	}
+}
+
+#jumbotron {
+	
+}
+
+#body {
+	.box {
+		@include box();
+		padding: 100px;
+		text-align: center;
+	}
+}
+
+#footer {
+	
 }
