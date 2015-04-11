@@ -1,6 +1,5 @@
 $default-margin: 20px;
 
-
 @mixin box() {
 	box-shadow: 0 0 3px #555;
 	margin: $default-margin;
@@ -13,7 +12,6 @@ $default-margin: 20px;
 }
 
 #jumbotron {
-	
 }
 
 #body {
@@ -25,5 +23,5 @@ $default-margin: 20px;
 }
 
 #footer {
-	
+
 }
